@@ -87,7 +87,7 @@ export default function About({ onShowToast }: AboutProps) {
             <div
               ref={tiltRef}
               className="relative w-full aspect-[4/5] rounded-2xl overflow-hidden bg-light-gray"
-              style={{ transformStyle: 'preserve3d', transition: 'transform 0.4s ease' }}
+              style={{ transformStyle: 'preserve-3d', transition: 'transform 0.4s ease' }}
             >
               {/* Animated border glow */}
               <div className={`absolute -inset-[3px] rounded-[19px] image-border-glow -z-[1] animate-rotate-border transition-opacity duration-1000 ${
